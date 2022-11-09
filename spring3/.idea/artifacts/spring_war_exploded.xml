@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring:war exploded">
+    <output-path>$PROJECT_DIR$/target/spring</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>spring</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.7.3" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:5.7.3" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.7.3" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.7.3" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.30" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/spring/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring/web/Web" />
+    </root>
+  </artifact>
+</component>
